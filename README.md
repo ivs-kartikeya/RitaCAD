@@ -6,7 +6,7 @@
 
 RitaCAD is an early Windows desktop part modeler developed under **Ritagyan Systems**, powered by the proprietary **RitaCAD Geometry Kernel (RGK)**. Sketches, dimensions and features form an editable native model; viewport triangles and STL exports are separate from that model.
 
-**[Download for Windows →](https://github.com/ivs-kartikeya/RitaCAD/releases/download/v0.5-rc2/RitaCAD-v0.5-Windows-Portable.zip)** · [Release notes and checksums](https://github.com/ivs-kartikeya/RitaCAD/releases/tag/v0.5-rc2) · [Getting started](docs/GETTING_STARTED.md)
+**[Download for Windows →](https://raw.githubusercontent.com/ivs-kartikeya/RitaCAD/main/downloads/v0.5-rc2/RitaCAD-v0.5-Windows-Portable.zip)** · [Release notes and checksums](https://github.com/ivs-kartikeya/RitaCAD/releases/tag/v0.5-rc2) · [Getting started](docs/GETTING_STARTED.md)
 
 **This is an early release candidate.** It covers specific, validated modeling workflows and remains under active development. Read the [known limitations](docs/KNOWN_LIMITATIONS.md) before choosing it for a project.
 
@@ -23,7 +23,7 @@ RitaCAD is an early Windows desktop part modeler developed under **Ritagyan Syst
 
 Requires **64-bit Windows, .NET Framework 4.8 and working OpenGL support**. Build tools are unnecessary. Keep the extracted folder together. Ordinary CAD, lessons and deterministic design recipes work without a language model.
 
-Choose the named **Windows-Portable.zip** release asset. GitHub's automatic **Source code** archives and **Code > Download ZIP** contain this documentation repository, not the RitaCAD application.
+Choose the named **Windows-Portable.zip** download. GitHub's automatic **Source code** archives and **Code > Download ZIP** contain a snapshot of this downloads repository, not the extracted application folder.
 
 ## What you can try
 
