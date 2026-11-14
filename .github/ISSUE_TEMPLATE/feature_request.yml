@@ -1,0 +1,37 @@
+name: Feature request
+description: Describe a useful modeling or learning workflow.
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the task and a concrete example. This issue and its attachments will be public.
+        Please check existing issues and the known limitations before submitting.
+  - type: textarea
+    id: task
+    attributes:
+      label: What are you trying to do?
+      description: Explain the modeling, learning or inspection task.
+    validations:
+      required: true
+  - type: textarea
+    id: obstacle
+    attributes:
+      label: What gets in the way today?
+      description: Mention the current behavior and any workaround.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Desired result
+      description: Describe useful behavior with a small example, dimensions or a sketch if possible.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional. Include the RitaCAD version if relevant. Remove private information from attachments.
+    validations:
+      required: false

@@ -1,0 +1,23 @@
+# This repository publishes downloads and documentation only.
+*.exe
+*.dll
+*.pdb
+*.zip
+*.cs
+*.sln
+*.csproj
+*.ps1
+*.bat
+*.cmd
+bin/
+obj/
+kernel/
+parametric/
+sketcher/
+viewport/
+ui/
+ai/
+tests/
+work/
+.env
+*.log

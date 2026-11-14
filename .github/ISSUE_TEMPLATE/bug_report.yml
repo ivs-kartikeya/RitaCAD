@@ -1,0 +1,62 @@
+name: Bug report
+description: Report a reproducible problem in a RitaCAD release.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve RitaCAD. Check the known limitations first.
+        This issue and its attachments will be public. Remove personal information and confidential geometry.
+  - type: input
+    id: version
+    attributes:
+      label: RitaCAD release
+      description: The release you downloaded and, if available, the application version.
+      placeholder: v0.5-rc2 / 0.5.0.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows version and build, x64
+    validations:
+      required: true
+  - type: input
+    id: graphics
+    attributes:
+      label: Graphics hardware and driver
+      description: Especially useful for viewport or startup problems; enter unknown if unavailable.
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Start from a new part or name an included sample. Include dimensions and commands.
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Enter ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Actual result
+      description: Include exact error text and whether the problem happens consistently.
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or minimal sample
+      description: Optional. Share only files you have permission to publish. Check logs for personal paths first.
+    validations:
+      required: false

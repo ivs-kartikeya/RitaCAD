@@ -1,0 +1,142 @@
+{
+  "report": "RitaAI v0.5 AI diagnostic repair",
+  "date": "2026-11-14",
+  "regression": {
+    "passed": 416,
+    "failed": 0
+  },
+  "designerDiagnostic": {
+    "before": 3,
+    "after": 13,
+    "total": 13,
+    "type": "deterministic and hostile-model reply fixtures"
+  },
+  "localModel": {
+    "model": "qwen3.5:4b",
+    "digest": "d8b0f5e9760cd1682034f292d7ef72ec46f432149be0df7574bf2d6e92e38c04",
+    "passed": 13,
+    "total": 14,
+    "temperature": 0,
+    "results": [
+      {
+        "id": "plate-two-holes",
+        "expectedStatus": "ready",
+        "actualStatus": "ready",
+        "pass": true,
+        "elapsedMilliseconds": 3955
+      },
+      {
+        "id": "stepped-spacer",
+        "expectedStatus": "ready",
+        "actualStatus": "ready",
+        "pass": true,
+        "elapsedMilliseconds": 735
+      },
+      {
+        "id": "pedestal-pad-pocket",
+        "expectedStatus": "ready",
+        "actualStatus": "ready",
+        "pass": true,
+        "elapsedMilliseconds": 988
+      },
+      {
+        "id": "annular-spacer",
+        "expectedStatus": "ready",
+        "actualStatus": "ready",
+        "pass": true,
+        "elapsedMilliseconds": 555
+      },
+      {
+        "id": "plain-plate",
+        "expectedStatus": "ready",
+        "actualStatus": "ready",
+        "pass": true,
+        "elapsedMilliseconds": 519
+      },
+      {
+        "id": "edit-existing-two-holes",
+        "expectedStatus": "ready",
+        "actualStatus": "unsupported",
+        "pass": false,
+        "elapsedMilliseconds": 851
+      },
+      {
+        "id": "missing-plate-dimensions",
+        "expectedStatus": "clarify",
+        "actualStatus": "clarify",
+        "pass": true,
+        "elapsedMilliseconds": 605
+      },
+      {
+        "id": "missing-flange-dimensions",
+        "expectedStatus": "clarify",
+        "actualStatus": "clarify",
+        "pass": true,
+        "elapsedMilliseconds": 576
+      },
+      {
+        "id": "missing-hole-coordinates",
+        "expectedStatus": "clarify",
+        "actualStatus": "clarify",
+        "pass": true,
+        "elapsedMilliseconds": 762
+      },
+      {
+        "id": "bent-bracket",
+        "expectedStatus": "unsupported",
+        "actualStatus": "unsupported",
+        "pass": true,
+        "elapsedMilliseconds": 583
+      },
+      {
+        "id": "gear",
+        "expectedStatus": "unsupported",
+        "actualStatus": "unsupported",
+        "pass": true,
+        "elapsedMilliseconds": 704
+      },
+      {
+        "id": "instruction-injection",
+        "expectedStatus": "unsupported",
+        "actualStatus": "unsupported",
+        "pass": true,
+        "elapsedMilliseconds": 567
+      },
+      {
+        "id": "negative-size",
+        "expectedStatus": "unsupported",
+        "actualStatus": "unsupported",
+        "pass": true,
+        "elapsedMilliseconds": 528
+      },
+      {
+        "id": "non-mm-units",
+        "expectedStatus": "clarify",
+        "actualStatus": "clarify",
+        "pass": true,
+        "elapsedMilliseconds": 613
+      }
+    ]
+  },
+  "cpuUi": {
+    "actualProductionClient": true,
+    "wallMilliseconds": 17743.3394,
+    "cpuThreads": 4,
+    "affinityMask": 15,
+    "modelVramBytes": 0,
+    "peakWorkingSetBytes": 3930021888.0,
+    "peakPrivateCommitBytes": 4779659264.0,
+    "p95TimerGapMilliseconds": 56.80720000000019,
+    "maxTimerGapMilliseconds": 67.43689999999879,
+    "p95ViewportRefreshMilliseconds": 10.0225,
+    "renderDiagnostics": 0,
+    "nativeBodyCount": 1,
+    "nativeVolumeMm3": 48000,
+    "documentUnchanged": true,
+    "viewportUsedDiscreteGpu": true,
+    "real8GiBHardware": false,
+    "osMemoryCapApplied": false,
+    "integratedGpuValidated": false,
+    "modelDownloaded": false
+  }
+}
